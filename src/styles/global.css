@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  background-blend-mode: lighten;
+  background-image:
+      linear-gradient(0deg, transparent 25%, rgba(234, 168, 32, 0.10) 25%, rgba(234, 168, 32, 0.10) 50%, transparent 50%, transparent),
+      linear-gradient(0deg, transparent 75%, rgba(63, 185, 146, 0.10) 75%,rgba(63, 185, 146, 0.10) 100%, transparent 100%, transparent),
+      linear-gradient(90deg, transparent 25%, rgba(224, 21, 100, 0.10) 25%, rgba(224, 21, 100, 0.10) 50%, transparent 50%, transparent),
+      linear-gradient(90deg, transparent 75%, rgba(111, 202, 221, 0.10) 75%, rgba(111, 202, 221, 0.10) 100%, transparent 100%, transparent);
+  background-size: 200px 200px;
+}
+
+p {
+  font-size: 150%;
+}
+
+form {
+  padding: 50px;
+  display: inline-block;
+  font-size: 25px;
+  color: #fff;
+  background-color:  #000;
+  border-radius: 0.7em;
+
+}
+
+#invite {
+  background-color:  rgba(247, 67, 23, 0.75);
+  color: #fff;
+  width: 10em;
+  height: 4.1em;
+  font-size: 0.7em;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  border-radius: 0.7em;
+}
+
+#email {
+  width: 30em;
+  height: 3.8em;
+  font-size: 0.7em;
+  margin-right: 1em;
+  font-family: Ubuntu, "times new roman", times, roman, serif;
+  border-radius: 0.7em;
+  border-color: transparent;
+  margin-top:1em;
+}
+
+.confirmation-dialog {
+  font-size: 150%;
+  background-color:  rgba(63, 185, 146);
+  font-size: 25px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.g-recaptcha-container {
+  border-radius: 0.7em;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 10em;
+}
+
+.swatch, .reference {
+    float: left;
+    margin: 0.5em;
+}
+
+.swatch {
+    height: 15em;
+    width: 30em;
+}
+

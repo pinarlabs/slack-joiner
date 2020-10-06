@@ -1,0 +1,12 @@
+{
+    "welcomeMessage": "Welcome to X Community Slack",
+    "form": {
+        "emailMessage": "Email to join",
+        "submitMessage": "Request Invitation",
+        "submitLoading": "...Loading"
+    },
+    "dialog": {
+        "ok": "Invite Sent",
+        "back": "Back"
+    }
+}
