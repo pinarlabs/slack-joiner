@@ -18,15 +18,15 @@ The deployment is straightforward via [vercel](https://vercel.com):
 If you want to config your wording on the app just update the index.json texts:
 ```
 {
-    "welcomeMessage": "Bienvenidos al Slack de testingAR",
+    "welcomeMessage": "Welcome to X Community Slack",
     "form": {
-        "emailMessage": "Email para la invitación",
-        "submitMessage": "Enviar Invitación",
-        "submitLoading": "...Cargando"
+        "emailMessage": "Email to join",
+        "submitMessage": "Request Invitation",
+        "submitLoading": "...Loading"
     },
     "dialog": {
-        "ok": "Invitación Enviada",
-        "back": "Volver"
+        "ok": "Invite Sent",
+        "back": "Back"
     }
 }
 ```
