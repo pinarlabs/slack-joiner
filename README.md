@@ -1,6 +1,6 @@
 # Slack Joiner
 
-This simple application solves the problem to allow your community users(slack) to auto invite.
+This application solves the problem to allow your community users(slack) to auto invite.
 
 ![](./docs/slack-joiner.gif)
 
