@@ -2,6 +2,14 @@
 
 This simple application solves the problem to allow your community users(slack) to auto invite.
 
+![](./docs/slack-joiner.gif)
+
+## Run and Debug Locally
+
+```
+npm run dev
+```
+
 ## Deployment
 
 The deployment is straightforward via [vercel](https://vercel.com):
