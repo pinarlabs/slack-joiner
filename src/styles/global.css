@@ -14,16 +14,21 @@ p {
   font-size: 150%;
 }
 
-form {
-  padding: 50px;
-  display: inline-block;
-  font-size: 25px;
-  color: #fff;
-  background-color:  #000;
-  border-radius: 0.7em;
-
+a:link {
+  color: white;
 }
 
+a:visited {
+  color: white;
+}
+
+form {
+  color: #fff;
+  padding: 0px;
+  display: inline-block;
+  background-color:  #000;
+  border-radius: 1em;
+}
 #invite {
   background-color:  rgba(247, 67, 23, 0.75);
   color: #fff;
@@ -47,7 +52,8 @@ form {
 
 .confirmation-dialog {
   font-size: 150%;
-  background-color:  rgba(63, 185, 146);
+  color: #fff;
+  background-color:  #000;
   font-size: 25px;
   margin-left: 35%;
   margin-right: 35%;
@@ -69,3 +75,17 @@ form {
     width: 30em;
 }
 
+
+.form-container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-size: 25px;
+}
+
+.madewith {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 0.8em;
+}
